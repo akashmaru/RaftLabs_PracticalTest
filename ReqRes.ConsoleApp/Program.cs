@@ -4,7 +4,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Polly;
 using Polly.Extensions.Http;
-using ReqRes.Client.DTOs;
 using ReqRes.Client.Interface;
 using ReqRes.Client.Services;
 
