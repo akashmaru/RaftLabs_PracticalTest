@@ -84,6 +84,7 @@ namespace ReqRes.Client.Services
                     if (_cache.TryGetValue(cacheKey, out users))
                     {
                         _logger.LogInformation("Cache hit for page {Page}", currentPage);
+                        return users; // Return cached users if available
                     }
                     else
                     {
